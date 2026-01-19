@@ -7,7 +7,7 @@
 $db_host = '127.0.0.1';
 $db_name = 'zqz_voting';
 $db_user = 'zqz_voting';
-$db_pass = '789789';
+$db_pass = '';
 $conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
 // ▼▼▼ 修改点 1：用一个更强大的变量来代替 $showEasterEgg ▼▼▼
 $easterEggType = 0; // 0:隐藏, 1:显示普通彩蛋, 2:显示高级彩蛋
