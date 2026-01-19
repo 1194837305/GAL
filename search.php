@@ -50,7 +50,7 @@ if (!empty($characters_from_api)) {
         $db_host = '127.0.0.1';
         $db_name = 'zqz_voting';
         $db_user = 'zqz_voting';
-        $db_pass = '789789';
+        $db_pass = '';
         
         // 使用@抑制连接错误，我们自己处理
         $conn = @new mysqli($db_host, $db_user, $db_pass, $db_name);
