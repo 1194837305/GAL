@@ -17,7 +17,7 @@ if (time() > $deadline) {
 $db_host = '127.0.0.1';
 $db_name = 'zqz_voting';
 $db_user = 'zqz_voting';
-$db_pass = '789789';
+$db_pass = '';
 
 // --- 统一响应函数 (不变) ---
 function send_response($status, $message, $data = []) {
