@@ -4,7 +4,7 @@
 // 数据库连接配置 (这部分PHP代码是正确的，无需改动)
 define('DB_SERVER', '127.0.0.1');
 define('DB_USERNAME', 'zqz_voting');
-define('DB_PASSWORD', '789789');
+define('DB_PASSWORD', '');
 define('DB_NAME', 'zqz_voting');
 
 $conn = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
