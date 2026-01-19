@@ -4,7 +4,7 @@
 // 1. 数据库连接配置
 define('DB_SERVER', '127.0.0.1');
 define('DB_USERNAME', 'zqz_voting');
-define('DB_PASSWORD', '789789'); // 别忘了填回你的密码
+define('DB_PASSWORD', ''); // 别忘了填回你的密码
 define('DB_NAME', 'zqz_voting');
 
 header('Content-Type: application/json');
