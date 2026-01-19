@@ -7,7 +7,7 @@
 $db_host = '127.0.0.1';
 $db_name = 'zqz_voting';
 $db_user = 'zqz_voting';
-$db_pass = '789789'; // !! 请确保这里的密码和您设置的一致 !!
+$db_pass = ''; 
 
 // 尝试连接数据库
 $conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
